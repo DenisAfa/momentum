@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="owfont-regular.css">
+  <title>momentum</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="weather">
+        <span>Weather</span>
+        <div class="city" contenteditable="true" tabindex="1"></div>
+        <i class="weather-icon owf"></i>
+        <div class="temperature"></div>
+        <div class="weather-description"></div>
+        <div class="humidity"></div>
+        <div class="wind"></div>
+      </div>
+      <button class="btn"></button>
+    </header>
+    <main class="content">
+      <time class="time"></time>
+      <div class="date"></div>
+      <h1>
+        <span class="greeting"></span>
+        <span class="name" contenteditable="true" tabindex="1"></span>
+      </h1>
+      <h2>What Is Your Focus For Today?</h2>
+      <h2 class="focus" contenteditable="true" tabindex="2"></h2>
+    </main>
+    <footer class="footer">
+      <div class="wrapper__quote">
+        <figure class="quote">
+          <blockquote class="quote__content">
+            You were not born a winner, and you were not born a loser. You are what you make yourself be.
+          </blockquote>
+          <figcaption> 
+            Lou Holtz
+          </figcaption>
+        </figure>
+        <button class="btn__quote">Next</button>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
